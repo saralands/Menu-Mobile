@@ -1,0 +1,37 @@
+.nav-main {
+	margin:0;
+	padding:0;
+	list-style: none;
+	display: none;
+
+	li {
+		border-bottom:1px solid black;
+
+		a {
+			display: block;
+			padding: 10px 40px;
+
+		
+
+		}
+	}
+
+
+	@media all and (min-width:420px) {
+				display:block;
+				
+				li{
+					display: block;
+					float: left;
+				}
+		}
+}
+
+/*.hamburger*/
+
+.is-mobile {
+	display:block;
+	@media all and (min-width: 420px){
+		display:none;
+	}
+}
